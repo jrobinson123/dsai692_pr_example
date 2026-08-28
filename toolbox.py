@@ -13,14 +13,17 @@ import sys
 
 # --- IMPORT BLOCK --------------------------------------------------
 # Add your import at the END of this block, on the line above the dashes.
+
 from tools.shout import shout
+from tools.wordcount import word_count
 # -------------------------------------------------------------------
 
 
 # --- TOOL REGISTRY -------------------------------------------------
 # Add your tool at the END of this dict, on the line above the closing brace.
 TOOLS = {
-    "shout": shout,
+	"shout": shout,
+	"initials": initials,        # <-- your line goes last
 }
 # -------------------------------------------------------------------
 
