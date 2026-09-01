@@ -16,6 +16,8 @@ import sys
 
 from tools.shout import shout
 from tools.wordcount import word_count
+from tools.reverse import reverse
+from tools.initials import initials
 # -------------------------------------------------------------------
 
 
@@ -23,7 +25,9 @@ from tools.wordcount import word_count
 # Add your tool at the END of this dict, on the line above the closing brace.
 TOOLS = {
 	"shout": shout,
-	"initials": initials,        # <-- your line goes last
+	"initials": initials,        
+    	"wordcount": word_count,
+    	"reverse": reverse
 }
 # -------------------------------------------------------------------
 
@@ -44,3 +48,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
